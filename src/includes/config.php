@@ -18,7 +18,7 @@
 				"projecthoneypot" => array(
 					"api" => array(
 						"enabled" => false,
-						"api_key" => "", // Projecthoneypot API Key
+						"api_key" => "", // Projecthoneypot API Key https://www.projecthoneypot.org/httpbl_configure.php
 					),
 					"settings" => array(
 					"threat_score" => 14, // Score required to prohibit the user from creating any pastes [1-3 Low: 4-8 Medium: 9+ High]
