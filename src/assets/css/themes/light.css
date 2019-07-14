@@ -1,0 +1,25 @@
+body {
+	background: #505061;
+}
+
+.container-block {
+	background: #FFFFFF;
+}
+
+.container-block textarea, .container-block input {
+	color: #ffffff;
+}
+
+.container-block .container-align-left .pastes-counter {
+	background: #9397CD;
+	color: #FFFFFF;
+}
+
+.form-control, .form-control:focus, .form-control[readonly] {
+	background: #F4F4F4;
+	color: #555555 !important;
+}
+
+.btn-default {
+	background: #272727;
+}

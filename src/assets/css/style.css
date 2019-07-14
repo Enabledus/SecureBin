@@ -1,0 +1,155 @@
+.container-wrap {
+	position: relative !important;
+	height: 100vh;
+	width: 75%;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.container-block {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	padding: 20px 30px;
+	box-sizing: border-box;
+	border-radius: 12px;
+}
+
+.container-block #brand {
+	font-size: 24px;
+}
+
+.container-block textarea, .container-block input {
+	box-shadow: none !important;
+}
+
+.container-block .container-head, .container-block .container-footer {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.container-block .container-footer .max-views-container {
+	display: flex;
+}
+
+.container-block .container-footer .max-views-container #maxViewsInput {
+	max-width: 80px;
+}
+
+.container-block .container-footer .max-views-container .reset-max-views,
+.container-block .container-footer .max-views-container span.description {
+	align-self: center;
+	margin-left: 5px;
+}
+
+.container-block .container-footer {
+	padding: 15px 0 5px 0;
+}
+
+.container-block .container-align-left {
+	display: flex;
+}
+
+.container-block .container-align-left .container-align-left-element {
+	float: left;
+	align-self: center;
+}
+
+.container-block .container-align-left .pastes-counter {
+	padding: 3px 7px;
+	font-size: 15px;
+	display: inline;
+	border-radius: 2px;
+}
+
+.container-block .container-align-right {
+	float: right;
+}
+
+.container-block .container-align-left-element {
+	margin-right: 10px;
+}
+
+.container-block .container-align-right-element {
+	margin-left: 10px;
+}
+
+.container-block .container-align-left-element,
+.container-block .container-align-right-element {
+	float: left;
+	flex: 1;
+}
+
+.container-block .container-body {
+	margin-top: 15px;
+}
+
+.container-block .container-body .unlock-paste {
+	padding: 50px 0;
+	text-align: center;
+}
+
+.container-block .container-body .unlock-paste p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.container-block .container-body .unlock-paste .field-container {
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.container-block .container-body .unlock-paste .field-container .unlock-fields {
+	display: flex;
+}
+
+.container-block .container-body .unlock-paste .field-container .unlock-fields input[type="submit"] {
+	margin-left: 10px;
+}
+
+
+.container-block .container-body .paste-input {
+	height: 65vh;
+	font-family: Inconsolata, sans-serif;
+	font-size: 17px;
+	resize: none;
+}
+
+.container-block .container-footer .encryption-key-input {
+	width: 300px;
+}
+
+.container-block .container-footer .create-paste-button {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+.form-control, .form-control:focus, .form-control[readonly] {
+	border: none;
+	font-size: 18px;
+	outline: none !important;
+}
+
+
+.reset-max-views {
+	font-size: 20px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.btn.width-m {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.decrypt-error {
+	max-width: 200px;
+	padding: 5px;
+	margin: 20px auto 0 auto;
+}
