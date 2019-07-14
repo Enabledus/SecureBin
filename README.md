@@ -16,14 +16,14 @@
 ## Options
 * Password protection
 * Paste self destruction
-* Different themes
-* ProjectHoneypot integration
-* Ability to blacklist weak encryption keys
-* Ability to prevent crawlers from increasing the views, eg. DiscordBot & TwitterBot
 
 ## Advantages
 * In case of a data breach the pasted data is encrypted and safe.
 * No data can be traced back to the paste creator without the decryption key.
+* Several different themes
+* ProjectHoneypot integration
+* Ability to blacklist weak encryption keys
+* Ability to prevent crawlers from increasing the views, eg. DiscordBot & TwitterBot
 
 ## Coming soon
 * There is no new upcoming changes.
