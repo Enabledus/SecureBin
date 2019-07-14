@@ -26,7 +26,7 @@
 * Ability to prevent crawlers from increasing the views, eg. DiscordBot & TwitterBot
 
 ## Coming soon
-* There is no new upcoming changes.
+* Burn paste if incorrect password has been provided
 
 ## What to look out for
 Since site administrators has got full access to the source, they could start logging, or inject malicious code at any time. So you have to trust the site administrator with your pasted data.
