@@ -1,7 +1,7 @@
 # SecureBin
 **SecureBin** is an encrypted pastebin where the server has got zero knowledge of the paste data.
 
-#### Official website https://securebin.ml/ (Temporarily unavaliable)
+#### Official website https://securebin.ml/
 ---
 
 ## Requirements
