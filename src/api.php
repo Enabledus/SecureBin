@@ -50,21 +50,21 @@
 						"message" => "Encryption key can't be longer than ".$config['encryption']['key']['max_length']." characters long"
 					)));
 				}
-
-				if ($config['spam']['projecthoneypot']['api']['enabled']) {
+				
+				if ($config['security']['spam']['projecthoneypot']['api']['enabled']) {
 				$ip = "";
-				if (!empty($_SERVER['HTTP_CLIENT_IP'])) { // Normal IP Header
-					$ip = $_SERVER['HTTP_CLIENT_IP'];
+				if (!empty($_SERVER['REMOTE_ADDR'])) { // Normal IP Header
+					$ip = $_SERVER['REMOTE_ADDR'];
 				} else if (!empty($_SERVER['HTTP_CF_CONNECTING_IP'])) { // Cloudflare IP Header
 					$ip = $_SERVER['HTTP_CF_CONNECTING_IP'];
 				} else if (!empty($_SERVER['X-Real-IP'])) { // Blazingfast IP Header
 					$ip = $_SERVER['X-Real-IP'];
 				}
-				$lookup = $config['security']['spam']['api']['api_key'] . '.' . implode('.', array_reverse(explode ('.', $ip))) . '.dnsbl.httpbl.org';
-				$result = explode('.', gethostbyname($lookup));
+				$lookup = $config['security']['spam']['projecthoneypot']['api']['api_key'] . '.' . implode('.', array_reverse(explode ('.', $ip))) . '.dnsbl.httpbl.org';
+				$result = explode( '.', gethostbyname($lookup));
 
 				if ($result[0] == 127) {
-					if ($result[2] >= $config['spam']['settings']['threat_score']) {
+					if ($result[2] >= $config['security']['spam']['projecthoneypot']['settings']['threat_score']) {
 						die(json_encode(array(
 							"success" => false,
 							"message" => "Your IP Address has been blocked from creating any pastes."
@@ -72,6 +72,7 @@
 					}
 				}
 				}
+				
 				if(isset($_POST['maxViews']) && !empty($_POST['maxViews'])) {
 					if(!is_numeric($_POST['maxViews']))
 						die(json_encode(array("success" => false, "message" => "Max views has to be numeric")));
