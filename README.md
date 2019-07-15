@@ -27,6 +27,7 @@
 
 ## Coming soon
 * Burn paste if incorrect password has been provided
+
 * Browser Integrity Check
 #### Evaluate headers from your visitors browser for threats.
 
