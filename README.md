@@ -23,7 +23,7 @@
 * Several different themes
 * ProjectHoneypot integration
 * Ability to blacklist weak encryption keys
-* Ability to prevent crawlers from increasing the views, eg. DiscordBot & TwitterBot
+* Ability to prevent crawlers from increasing the paste views, eg. DiscordBot & TwitterBot
 
 ## Coming soon
 * Burn paste if incorrect password has been provided
