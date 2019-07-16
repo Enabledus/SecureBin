@@ -1,0 +1,38 @@
+body {
+	background: #10171E;
+	color: #FFFFFF;
+}
+
+.container-block {
+	background: #15202B;
+}
+
+.container-block textarea, .container-block input {
+	color: #ffffff;
+}
+
+.container-block .container-align-left {
+	background: #15202B;
+}
+
+.pastes-counter {
+	background: #10171E;
+}
+
+.form-control, .form-control:focus, .form-control[readonly] {
+	background: #10171E;
+	color: #8899A6 !important;
+}
+
+.btn-default {
+	background: #272727;
+}
+
+.unlock-fields input[type="submit"], #go-back {
+	background: #10171E;
+	color: #FFFFFF;
+}
+
+.unlock-fields input[type="submit"]:hover, #go-back:hover, .create-paste-button:hover {
+	background: #0C1116;
+}

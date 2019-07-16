@@ -1,0 +1,2 @@
+Disallow: /crawlers.txt
+Disallow: /assets/
