@@ -3,7 +3,7 @@
 
 #### Official website https://securebin.ml/
 
-![Image]https://i.postimg.cc/CxJk7gy2/28ccb63b90f65d21995b78ee79b69837.png
+![Image](https://i.postimg.cc/CxJk7gy2/28ccb63b90f65d21995b78ee79b69837.png)
 ---
 
 ## Requirements
