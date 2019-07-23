@@ -31,6 +31,7 @@
 ## Coming soon
 * Burn paste if incorrect password has been provided
 * Better IPv6 support
+* Client sided encryption using JS
 
 ## What to look out for
 Since site administrators has got full access to the source, they could start logging, or inject malicious code at any time. So you have to trust the site administrator with your pasted data.
